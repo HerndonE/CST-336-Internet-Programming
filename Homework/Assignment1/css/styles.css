@@ -1,0 +1,57 @@
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+nav a {
+    padding: 15px;
+    padding-bottom: 4px;
+    font-size: 1.8em;
+    text-decoration: none;
+    color: white
+    
+}
+nav a:hover{
+    border-bottom:2px orange solid;
+    font-size: 2em;
+    transition: .9s;
+}
+
+.jumbotron {
+    background-color: #000000;
+    min-height: 600px;
+}
+.gray{ 
+    color: #F0F0F0; 
+} 
+
+.title{ 
+    color: red; 
+} 
+
+#content3 {
+    position: relative;
+}
+#content3 img {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+#content2 {
+    position: relative;
+}
+#content2 img {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.footer{
+    color: white;
+}

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TodoList</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<link href="css/app.css" rel= "stylesheet" type= "text/css" />
+</head>
+<body>
+	<div id="container">
+	<h1>Computer List</h1>
+	<input type="text" placeholder="Add Computer Part" onkeypress="return handle(event)" id="candidate" class="guessField"/>
+    <div align="right"><button onclick="removeItem()">remove item</button></div>
+	<ul id="dynamic-list">
+		<li id="preExisting">CPU</li>
+		<li id="preExisting">GPU</li>
+	</ul>
+	<p id="lastResult"></p>
+	</div>
+	<script SRC="app.js"></script>
+</body>
+</html>

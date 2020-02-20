@@ -1,0 +1,199 @@
+<html>
+
+<head>
+    <title> Sign Up Page</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <link href="css/styles.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <form id = "signupForm" method = "get" action = "welcome.html">
+    <h1> Sign Up </h1>
+    First Name: <input type="text" name="fName"><br> 
+    Last Name: <input type="text" name="lName"><br> 
+    Gender: <input type="radio" name="gender" value="m"> Male
+            <input type="radio" name="gender" value="f"> Female<br><br> 
+    Zip Code: <input type="text" name="zip" id="zip"><br>
+    <span id = "zipCodeError"></span><br>
+    City: <span id="city"></span><br> 
+    Latitude: <span id="latitude"></span><br>
+    Longitude: <span id="longitude"></span><br><br> 
+    State:
+    <select id="state" name="state">
+                <option value = "">Select One</option>
+                <option value = "ca"> California</option>
+                <option value = "ny">New York</option>
+                <option value = "tx"> Texas</option>
+        </select>
+        <br> 
+    Select a County: <select id="county"></select><br><br> 
+    Desired Username: <input type="text" id="username" name="username"><br> 
+                      <span id = "usernameError"></span><br>
+    Password: <input type="password" id="password" name="password"><br> 
+              <span id = "passwordError"></span><br>
+    Re-type Password: <input type="password" id="passwordAgain"><br>
+                    <span id = "passwordAgainError"></span> <br><br>
+
+    <input type="submit" value="Sign up!"><br>
+    </form>
+
+    <script>
+    
+            var usernameAvailable = false;
+
+        $("#zip").on("change", function() 
+        {
+            $.ajax
+            ({
+                method: "GET",
+                url: "https://itcdland.csumb.edu/~milara/ajax/cityInfoByZip.php?zip=93955",
+                dataType: "json",
+                data: { "zip": $("#zip").val()},
+                success: function(result, status) 
+                {
+                    
+                    if(!result || result === "")
+                    {
+                        $("#zipCodeError").html("Zip code not found!");
+                        $("#zipCodeError").css("color", "red");
+                        $("#city").html("");
+                        $("#latitude").html("");
+                        $("#longitude").html("");
+                    }
+                    else
+                    {
+                        $("#zipCodeError").html("");
+                    }
+                    // alert(result.city);
+                    $("#city").html(result.city);
+                    $("#latitude").html(result.latitude);
+                    $("#longitude").html(result.longitude);
+
+                }
+            }); 
+        }); 
+        
+        $("#state").on("change", function()
+        {
+            $.ajax
+            ({
+                method: "GET",
+                url: "https://itcdland.csumb.edu/~milara/ajax/countyList.php?state=ca",
+                dataType: "json",
+                data: { "state": $("#state").val()},
+                success: function(result, status) 
+                {
+                    $("#county").html("<option> Select One </option>");
+                    for(let i = 0; i < result.length; i++) 
+                    {
+                        $("#county").append("<option>" + result[i].county + "</option>");
+                    }
+
+                }
+            }); 
+        }); 
+        
+        $("#state").on("change", function()
+        {
+            
+            $.ajax({
+                method: "GET",
+                url: "https://cst336.herokuapp.com/projects/api/state_abbrAPI.php",
+                dataType: "json",
+                data: { "state": $("#state").val()},
+                success: function(result, status) {
+
+                    // alert(result[0].county);
+                    
+                    // $("#state").html("<option> Select One </option>");
+                    for(let i = 0; i < result.length; i++) {
+                        $("#state").append("<option>" + result[i].state + "</option>");
+                    }
+
+                }
+            }); 
+        }); 
+        $("#username").on("change", function() 
+        {
+
+            $.ajax({
+                method: "GET",
+                url: "https://cst336.herokuapp.com/projects/api/usernamesAPI.php?username=eeny",
+                dataType: "json",
+                data: { "username": $("#username").val()},
+                success: function(result, status) {
+
+                    if(result.available){
+                    $("#usernameError").html("Username is available!");
+                    $("#usernameError").css("color", "green");
+                    usernameAvailable = true;
+                }
+                else {
+                    $("#usernameError").html("Username is unavailable!");
+                    $("#usernameError").css("color", "red");
+                    usernameAvailable = false;
+                }
+                }
+            }); 
+        }); 
+        
+        $("#signupForm").on("submit", function(e) 
+        {
+            //alert(usernameAvailable);
+            if(!isFormValid()) 
+            {
+                e.preventDefault();
+            }
+            
+        });
+        
+        
+        function isFormValid()
+        {
+            isValid = true;
+            
+            if(!usernameAvailable) 
+            {
+                isValid = false;
+            }
+            
+            if($("#username").val().length == 0) 
+            {
+                isValid = false;
+                $("#usernameError").html("Username is required");
+                $("#usernameError").css("color", "red");
+            }
+            
+            if($("#password").val() != $("#passwordAgain").val())
+            {
+                $("#passwordAgainError").html("Password must be the same!");
+                $("#passwordAgainError").css("color", "red");
+                isValid = false;
+            }
+            
+            if($("#password").val().length < 6)
+            {
+                $("#passwordError").html("Password must be at least 6 characters!");
+                $("#passwordError").css("color", "red");
+                isValid = false;
+            }
+            
+            return isValid;
+        }
+    </script>
+
+</body>
+
+</html>

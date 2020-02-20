@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Thor Quiz</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src = "https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.9.1/underscore-min.js" ></script>
+
+    <style>
+        .red {color: red!important; }
+        .green {color: green!important;}
+        </style>
+
+</head>
+<body class="text-center">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    <h1 class="jumbotron">How Thor are you?</h1>
+
+    <h3><span id="markImg1"></span> What is the Thors full name?</h3>
+    <input type="text" id="q1">
+    <br><br>
+    <div id="q1Feedback"></div>
+    <br>
+
+    <h3><span id="markImg2"></span> How old is Thor?</h3>
+    <select id="q2">
+        <option value="">Select One</option>
+        <option value="ms">45</option>
+        <option value="mo">1000</option>
+        <option value="co">150</option>
+        <option value="de">466</option>
+    </select>
+    <br><br>
+    <div id="q2Feedback"></div>
+    <br>
+
+    <h3><span id="markImg3"></span>Pick Thors Siblings</h3>
+    <input type="checkbox" id="Valkyrie"> <label for="Valkyrie">Valkyrie  </label>
+    <input type="checkbox" id="Hulk"> <label for="Hulk">Hulk  </label>
+    <input type="checkbox" id="Loki"> <label for="Loki">Loki  </label>
+    <input type="checkbox" id="Hela"> <label for="Hela">Hela  </label>
+
+    <br><br>
+    <div id="q3Feedback"></div>
+    <br>
+
+    <h3><span id="markImg4"></span> What movie did Thor get his new hammer?</h3>
+    <div id="q4Choices"></div>
+    <div id="q4Feedback"></div>
+    <br></br>
+
+    <h3><span id="markImg5"></span>What image is in the Great Seal of the State of California? </h3>
+    <img src="img/anotherHammer.jpg" width="100" height="100" alt="Seal 1" class="q5Choice" id="seal1">
+    <input type="checkbox" id="hammer1"> <label for="hammer1"></label>
+    <img src="img/thorsHammer.jpg" width="100" height="100" alt="Seal 2" class="q5Choice" id="seal2">
+       <input type="checkbox" id="hammer2"> <label for="hammer2"></label>
+    <img src="img/hammer.jpg" width="100" height="100" alt="Seal 3" class="q5Choice" id="seal3">
+        <input type="checkbox" id="hammer3"> <label for="hammer3"></label>
+    <div id="q5Feedback"></div>
+    <br></br>
+
+    <h3 id="validationFdbk" class="bg-danger text-white"></h3>
+    <button class="btn btn-outline-success"> Submit Quiz </button>
+    <br>
+    <h2 id="totalScore" class="text-info"></h2>
+
+
+
+</body>
+<script SRC="js/function.js"></script>
+</html>

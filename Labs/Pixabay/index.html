@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+ <meta charset="utf-8 " />
+ <title>Pixabay Image Engine</title>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+ <script src = "https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.9.1/underscore-min.js" ></script>
+ <link href="css/styles.css" rel="stylesheet" type="text/css" />
+ 
+ </head>
+	<body>
+     <header>
+            <center>
+            <div class="jumbotron">   
+            <h1> Pixabay Image Search </h1>
+            </div>
+            <br><br>
+            <div class="search">   
+            Keyword: <input type="text" id = "kd" name="KWord"><br>
+            Orientation:
+            <select id = "orient">
+            <option value = ""> Select One</option>
+            <option value = "vertical"> Vertical</option>
+            <option value = "horizontal"> Horizontal</option>
+            </select>
+            <button onclick="searchImage()"> Search </button>
+            </div>
+    <br><br>
+    <div class="result">  
+    <div id="image"></div>
+    <div id="image2"></div>
+    <div id="image3"></div>
+    <div id="image4"></div>
+    </div>
+            </center>
+            
+     </header>
+		<footer>
+
+		</footer>
+
+	</body>
+	<script type="text/javascript" src="js/function.js"></script>
+</html>

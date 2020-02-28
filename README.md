@@ -18,3 +18,5 @@ https://guessing-number-lab-cst336.herokuapp.com//Labs/GuessNumber/index.html
 https://us-geography-quiz.herokuapp.com//Labs/JS%20Geography%20Quiz/index.html
 4. Lab 4: AJAX Signup    
 https://personal-portfolio-lab-cst336.herokuapp.com//Labs/AJAX%20Signup/index.html   
+5. Lab 5: Third-Party API with Pixabay    
+https://personal-portfolio-lab-cst336.herokuapp.com//Labs/Pixabay/index.html 

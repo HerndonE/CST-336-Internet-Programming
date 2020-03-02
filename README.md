@@ -19,4 +19,9 @@ https://personal-portfolio-lab-cst336.herokuapp.com//Labs/JS%20Geography%20Quiz/
 4. Lab 4: AJAX Signup    
 https://personal-portfolio-lab-cst336.herokuapp.com//Labs/AJAX%20Signup/index.html   
 5. Lab 5: Third-Party API with Pixabay    
-https://personal-portfolio-lab-cst336.herokuapp.com//Labs/Pixabay/index.html 
+https://personal-portfolio-lab-cst336.herokuapp.com//Labs/Pixabay/index.html    
+
+# Midterm Practice
+1. Midterm Practice: Dog Image API    
+https://personal-portfolio-lab-cst336.herokuapp.com//PracticeMidterm/index.html      
+

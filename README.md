@@ -5,8 +5,9 @@
 https://personal-portfolio-lab-cst336.herokuapp.com//Homework/Assignment1/index.html    
 2. Assignment 2: HTML Forms and JavaScript    
 Version 1: https://personal-portfolio-lab-cst336.herokuapp.com//Homework/Assignment2/index.html    
-Version 2: https://personal-portfolio-lab-cst336.herokuapp.com//Homework/Assignment2v.2/index.html    
-
+Version 2: https://personal-portfolio-lab-cst336.herokuapp.com//Homework/Assignment2v.2/index.html     
+2. Assignment 3: Third-Party APIs and AJAX     
+https://personal-portfolio-lab-cst336.herokuapp.com//Homework/Assignment3/index.html           
 
 
 # Labs 

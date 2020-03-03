@@ -1,0 +1,53 @@
+body {
+  text-align: center;
+}
+
+img {
+   border-radius: 20px;
+   
+}
+
+.jumbotron {
+   background-color:#00FFFF;
+   font-family: sans-serif;
+   width: 400px;
+}
+
+.search{
+   background-color:#DCDCDC;
+   width: 300px;
+   height: 60px;
+   border: 1px solid blue;
+   box-sizing: border-box;
+}
+
+.result{
+   background-color:#F0FFFF;
+   box-sizing: border-box;
+}
+
+#content3 {
+    position: relative;
+}
+#content3 img {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+#content2 {
+    position: relative;
+}
+#content2 img {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    transform: scaleX(-1);
+}
+
+.footer{
+   background-color:#F0FFFF;
+   color: black;
+   font-family: sans-serif;
+   
+}

@@ -28,6 +28,6 @@ https://personal-portfolio-lab-cst336.herokuapp.com//Labs/Pixabay/index.html
 1. Midterm Practice: Dog Image API    
 https://personal-portfolio-lab-cst336.herokuapp.com//PracticeMidterm/index.html      
 2. Midterm Practice Solution:     
-https://personal-portfolio-lab-cst336.herokuapp.com//PracticeMidtermSolution/7_RandomDogindex.html    
+https://personal-portfolio-lab-cst336.herokuapp.com//PracticeMidtermSolution/7_RandomDog/index.html    
 
 

@@ -30,4 +30,10 @@ https://personal-portfolio-lab-cst336.herokuapp.com//PracticeMidterm/index.html
 2. Midterm Practice Solution:     
 https://personal-portfolio-lab-cst336.herokuapp.com//PracticeMidtermSolution/7_RandomDog/index.html    
 
+# Midterm     
+1. Midterm: OpenLibraryApi    
+https://midtermcst336ethanherndon.herokuapp.com//Midterm/index.html     
+Notes: Needed to display author and the isbn. In addition, encompass the picture     
+and results in CSS.
+
 

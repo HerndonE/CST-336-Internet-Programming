@@ -38,6 +38,6 @@ and results in CSS.
 
 # Practice Express
 1. In class express lab: Friend List    
- https://midtermcst336ethanherndon.herokuapp.com//PracticeExpress/friends/index.js 
+https://midtermcst336ethanherndon.herokuapp.com//PracticeExpress/friends/index.js 
 
 

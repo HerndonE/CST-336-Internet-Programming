@@ -34,6 +34,10 @@ https://personal-portfolio-lab-cst336.herokuapp.com//PracticeMidtermSolution/7_R
 1. Midterm: OpenLibraryApi    
 https://midtermcst336ethanherndon.herokuapp.com//Midterm/index.html     
 Notes: Needed to display author and the isbn. In addition, encompass the picture     
-and results in CSS.
+and results in CSS.    
+
+# Practice Express
+1. In class express lab: Friend List    
+ https://midtermcst336ethanherndon.herokuapp.com//PracticeExpress/friends/index.js 
 
 

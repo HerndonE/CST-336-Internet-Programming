@@ -38,6 +38,16 @@ and results in CSS.
 
 # Practice Express
 1. In class express lab: Friend List    
-https://personal-portfolio-lab-cst336.herokuapp.com//PracticeExpress/friends/index.js 
+https://cst336expressrepo.herokuapp.com/friends     
+
+# Install and run NodeJs    
+```console
+foo@bar:~$ npm init    
+foo@bar:~$ touch index.js    
+foo@bar:~$ npm install --save express    
+foo@bar:~$ npm install --save ejs    
+foo@bar:~$ npm install --save body-parser    
+foo@bar:~$ node index.js    
+```
 
 

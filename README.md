@@ -6,10 +6,11 @@ https://personal-portfolio-lab-cst336.herokuapp.com//Homework/Assignment1/index.
 2. Assignment 2: HTML Forms and JavaScript    
 Version 1: https://personal-portfolio-lab-cst336.herokuapp.com//Homework/Assignment2/index.html    
 Version 2: https://personal-portfolio-lab-cst336.herokuapp.com//Homework/Assignment2v.2/index.html     
-2. Assignment 3: Third-Party APIs and AJAX     
+3. Assignment 3: Third-Party APIs and AJAX     
 https://personal-portfolio-lab-cst336.herokuapp.com//Homework/Assignment3/index.html               
 Version 2: Practice with OpenWeatherApi  
-https://personal-portfolio-lab-cst336.herokuapp.com//Homework/Assignment3v.2/index.html   
+https://personal-portfolio-lab-cst336.herokuapp.com//Homework/Assignment3v.2/index.html    
+4. Assignment 4: Redo Project 1 in Node.js and Express     
 
 
 # Labs 
@@ -24,7 +25,10 @@ https://personal-portfolio-lab-cst336.herokuapp.com//Labs/AJAX%20Signup/index.ht
 5. Lab 5: Third-Party API with Pixabay    
 https://personal-portfolio-lab-cst336.herokuapp.com//Labs/Pixabay/index.html    
 6. Lab 6: Solar System App with Node JS     
-https://solarsystemwebsite.herokuapp.com/home     
+https://solarsystemwebsite.herokuapp.com/home   
+7. Lab 7: Third-Party API for Pixabay in Express     
+https://pixabay-search-via-express.herokuapp.com/    
+  
 
 # Midterm Practice
 1. Midterm Practice: Dog Image API    
@@ -42,14 +46,16 @@ and results in CSS.
 1. In class express lab: Friend List    
 https://cst336expressrepo.herokuapp.com/friends     
 
-# Install and run NodeJs    
+# Install and run NodeJs/jQuery/jsdom    
 ```console
 foo@bar:~$ npm init    
 foo@bar:~$ touch index.js    
 foo@bar:~$ npm install --save express    
 foo@bar:~$ npm install --save ejs    
 foo@bar:~$ npm install --save body-parser    
-foo@bar:~$ node index.js    
+foo@bar:~$ npm install jsdom    
+foo@bar:~$ npm install jquery    
+foo@bar:~$ node index.js      
 ```
 
 

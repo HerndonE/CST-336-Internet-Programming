@@ -1,6 +1,6 @@
 # CST-336-Internet-Programming
 
-# Assignment
+# Assignments    
 1. Assignment 1: HTML & CSS     
 https://personal-portfolio-lab-cst336.herokuapp.com//Homework/Assignment1/index.html    
 2. Assignment 2: HTML Forms and JavaScript    
@@ -45,6 +45,12 @@ and results in CSS.
 # Midterm Solution (Provided by Professor)     
 1. Midterm Solution: OpenLibraryApi    
 https://midtermcst336ethanherndon.herokuapp.com//partll/index.html        
+
+Use ISBN numbers 0451526538 and 1594200092 to see the magic!    
+
+# In Class exercise using Request!    
+1. Use Request features on OpenLibraryApi:    
+https://cst336-request-class-exercise.herokuapp.com/        
 
 Use ISBN numbers 0451526538 and 1594200092 to see the magic!    
 

@@ -28,6 +28,8 @@ https://personal-portfolio-lab-cst336.herokuapp.com//Labs/Pixabay/index.html
 https://solarsystemwebsite.herokuapp.com/home   
 7. Lab 7: Third-Party API for Pixabay in Express     
 https://pixabay-search-via-express.herokuapp.com/    
+8. Lab 8: US Geography Quiz in Express (Extra Credit)        
+https://us-geography-quiz-w-express-ec.herokuapp.com/    
   
 
 # Midterm Practice
@@ -58,7 +60,7 @@ Use ISBN numbers 0451526538 and 1594200092 to see the magic!
 1. In class express lab: Friend List    
 https://cst336expressrepo.herokuapp.com/friends     
 
-# Install and run NodeJs/jQuery/jsdom    
+# Install and run NodeJs/jQuery/jsdom/request/unirest & ejs setup      
 ```console
 foo@bar:~$ npm init    
 foo@bar:~$ touch index.js    
@@ -67,6 +69,14 @@ foo@bar:~$ npm install --save ejs
 foo@bar:~$ npm install --save body-parser    
 foo@bar:~$ npm install jsdom    
 foo@bar:~$ npm install jquery    
+foo@bar:~$ npm install --save request       
+foo@bar:~$ mkdir views    
+foo@bar:~$ mkdir views/templates    
+foo@bar:~$ touch views/templates/footer.ejs    
+foo@bar:~$ touch views/templates/header.ejs    
+foo@bar:~$ touch views/home.ejs    
+foo@bar:~$ touch views/error.ejs    
+foo@bar:~$ npm install unirest           
 foo@bar:~$ node index.js      
 ```
 

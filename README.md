@@ -11,6 +11,9 @@ https://personal-portfolio-lab-cst336.herokuapp.com//Homework/Assignment3/index.
 Version 2: Practice with OpenWeatherApi  
 https://personal-portfolio-lab-cst336.herokuapp.com//Homework/Assignment3v.2/index.html    
 4. Assignment 4: Redo Project 1 in Node.js and Express     
+https://cst336assigment4express.herokuapp.com/     
+Fufills requirements however, I want to use [RAWG video game api](https://rapidapi.com/accujazz/api/rawg-video-games-database?endpoint=apiendpoint_fe5db4c5-dce0-4b37-b851-5194eedf0c17) to have the user search video games. 
+I would like to display the results on the page, maybe someday...        
 
 
 # Labs 

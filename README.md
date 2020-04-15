@@ -33,6 +33,8 @@ https://solarsystemwebsite.herokuapp.com/home
 https://pixabay-search-via-express.herokuapp.com/    
 8. Lab 8: US Geography Quiz in Express (Extra Credit)        
 https://us-geography-quiz-w-express-ec.herokuapp.com/    
+9. Lab 9: Quotes    
+https://cst-336-quotes-lab.herokuapp.com/       
   
 
 # Midterm Practice
@@ -63,7 +65,7 @@ Use ISBN numbers 0451526538 and 1594200092 to see the magic!
 1. In class express lab: Friend List    
 https://cst336expressrepo.herokuapp.com/friends     
 
-# Install and run NodeJs/jQuery/jsdom/request/unirest & ejs setup      
+# Install and run NodeJs/jQuery/jsdom/request/MYSQL/unirest & ejs setup      
 ```console
 foo@bar:~$ npm init    
 foo@bar:~$ touch index.js    
@@ -79,7 +81,8 @@ foo@bar:~$ touch views/templates/footer.ejs
 foo@bar:~$ touch views/templates/header.ejs    
 foo@bar:~$ touch views/home.ejs    
 foo@bar:~$ touch views/error.ejs    
-foo@bar:~$ npm install unirest           
+foo@bar:~$ npm install unirest 
+foo@bar:~$ npm install --save mysql              
 foo@bar:~$ node index.js      
 ```
 

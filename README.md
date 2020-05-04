@@ -34,7 +34,9 @@ https://pixabay-search-via-express.herokuapp.com/
 8. Lab 8: US Geography Quiz in Express (Extra Credit)        
 https://us-geography-quiz-w-express-ec.herokuapp.com/    
 9. Lab 9: Quotes    
-https://cst-336-quotes-lab.herokuapp.com/       
+https://cst-336-quotes-lab.herokuapp.com/      
+10. Lab 10: Quotes Admin     
+https://cst-336-lab-ten.herokuapp.com/      
   
 
 # Midterm Practice
@@ -54,6 +56,10 @@ and results in CSS.
 https://midtermcst336ethanherndon.herokuapp.com//partll/index.html        
 
 Use ISBN numbers 0451526538 and 1594200092 to see the magic!    
+
+# Final Project    
+1. Spin Scooters @ CSU Monterey Bay    
+https://cst336-final-spin-scooters.herokuapp.com/        
 
 # In Class exercise using Request!    
 1. Use Request features on OpenLibraryApi:    

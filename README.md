@@ -4,6 +4,8 @@
 Heroku has decided to remove it's free tier subscription at the end of November 28, 2022.
 How does this affect you? This project is hosted under Heroku's free tier service. It will remain on Heroku until the service it up. Thank you very much for taking the time into reading this message.
 
+Reference: Removal of Heroku Free Product Plans FAQ : https://help.heroku.com/RSBRUH58/removal-of-heroku-free-product-plans-faq
+
 # Assignments    
 1. Assignment 1: HTML & CSS     
 https://personal-portfolio-lab-cst336.herokuapp.com//Homework/Assignment1/index.html    

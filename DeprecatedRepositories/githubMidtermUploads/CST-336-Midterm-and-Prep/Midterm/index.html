@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8 " />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.9.1/underscore-min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Ethan Herndon Midterm CST 336</title>
+  </head>
+  <body>
+    <div class="container">
+		<div class="jumbotron">
+			<h1>Open Library</h1>
+			<p>Please enter the ISBN of the book you'd like to retrieve</p>
+			<form action="/" method="post" onsubmit="buildBook(); return false;">
+				<div class="form-group row">
+					<label for="number-images" class="col-sm-2 col-form-label">ISBN</label>
+					<div class="col-sm-4">
+						<input type="text" class="form-control" id="number-books" placeholder="0" required>
+					</div>
+					<div class="col-sm-6">
+						<button type="submit" class="btn btn-primary">Query</button>
+					</div>
+				</div>
+			</form>
+		</div>	
+		<div id = "cover"> </div>
+		<div class="flex-container" id="results5"></div>
+		</div>
+		<div class="flex-container" id="results"></div>
+				<div class="flex-container" id="results1"></div>
+						<div class="flex-container" id="results2"></div>
+								<div class="flex-container" id="results3"></div>
+										<div class="flex-container" id="results4"></div>
+	</div>
+    <script src="js/functions.js"></script>
+  </body>
+</html>
